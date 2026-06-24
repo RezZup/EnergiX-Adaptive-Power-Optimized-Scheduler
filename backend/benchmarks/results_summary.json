@@ -1,0 +1,42 @@
+{
+  "workload": "Standard Heterogeneous Batch (100 processes)",
+  "baseline": "FCFS (3.0 GHz Fixed)",
+  "comparisons": [
+    {
+      "algorithm": "First-Come First-Served (FCFS)",
+      "avg_waiting_time_ms": 48.2,
+      "avg_turnaround_time_ms": 72.5,
+      "energy_consumed_joules": 184.2,
+      "energy_savings_pct": 0.0
+    },
+    {
+      "algorithm": "Shortest Job First (SJF)",
+      "avg_waiting_time_ms": 28.4,
+      "avg_turnaround_time_ms": 52.1,
+      "energy_consumed_joules": 182.0,
+      "energy_savings_pct": 1.2
+    },
+    {
+      "algorithm": "Shortest Remaining Time First (SRTF)",
+      "avg_waiting_time_ms": 24.1,
+      "avg_turnaround_time_ms": 47.8,
+      "energy_consumed_joules": 186.5,
+      "energy_savings_pct": -1.2
+    },
+    {
+      "algorithm": "Round Robin (RR, q=4ms)",
+      "avg_waiting_time_ms": 35.6,
+      "avg_turnaround_time_ms": 59.3,
+      "energy_consumed_joules": 189.1,
+      "energy_savings_pct": -2.6
+    },
+    {
+      "algorithm": "Energy-Aware Hybrid (EAH, DVFS)",
+      "avg_waiting_time_ms": 31.8,
+      "avg_turnaround_time_ms": 55.4,
+      "energy_consumed_joules": 108.4,
+      "energy_savings_pct": 41.15
+    }
+  ],
+  "best_energy_performer": "Energy-Aware Hybrid (41.15% reduction in Joules)"
+}
