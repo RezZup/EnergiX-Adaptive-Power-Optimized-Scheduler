@@ -4,6 +4,9 @@
 
 A comprehensive web-based CPU scheduling simulator demonstrating **6 scheduling algorithms** with a novel **Energy-Aware Hybrid (EAH)** approach integrated with **Adaptive DVFS** (Dynamic Voltage Frequency Scaling) for energy efficiency in mobile and embedded systems.
 
+**Repository:** https://github.com/RezZup/EnergiX-Adaptive-Power-Optimized-Scheduler
+**Author:** Gaurav Rajbhar (RezZup)
+
 ---
 
 ## ✨ Key Features
