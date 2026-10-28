@@ -1356,4 +1356,4 @@ const WEIGHTS = {
 **Document Status**: ✅ Complete Technical Reference  
 **Last Updated**: December 6, 2025  
 **Version**: 1.0  
-**Repository**: github.com/Lightrex7749/EnergiX-Adaptive-Power-Optimized-Scheduler
+**Repository**: github.com/RezZup/EnergiX-Adaptive-Power-Optimized-Scheduler
